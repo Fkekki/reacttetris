@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css?family=Orbitron');
+
+.Menu{
+  background-color: black;
+  color: white;
+  height:100vh;
+}
+
+.Menu-Content{
+  position: relative;
+  top: 25%;
+  text-align: center;
+  font-family: 'Orbitron', sans-serif;
+}
+
+.Game-Content{
+  position: relative;
+  top: 5%;
+  text-align: center;
+  font-family: 'Orbitron', sans-serif;
+}
+
+.Title{
+  font-size: 300%;
+}
+
+.Buttons{
+  margin-top: 30px;
+}
+
+.MenuButton {
+  background-color: black;
+  width: 200px;
+  color: white;
+  border-style: double;
+  border-width: thick;
+  padding: 16px 32px;
+  font-family: 'Orbitron', sans-serif;
+  margin: auto;
+  display:block;
+  transition-duration: 0.4s;
+}
+.MenuButton:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.HighScore{
+  margin: auto;
+  border-style: solid;
+  border-color: white;
+  border-radius: 0.5em;
+  width: 200px;
+}
+
+.canvas{
+  border:5px solid #3f3f3f;
+  background-color: #000000;
+}
+
+.GameScore
+{
+  font-size: 75%;
+}
